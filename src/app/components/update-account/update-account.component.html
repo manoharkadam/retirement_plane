@@ -1,0 +1,17 @@
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title pull-left">Change account Number</h4>
+        <button
+          type="button"
+          class="close btn pull-right"
+          aria-label="Close"
+          (click)="bsModalRef.hide()"
+        >
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <label for="status">Please select your debit account number:</label>
+        {{this.list[0].accoutNumber}}
+      </div>
+      </div>
